@@ -2,7 +2,7 @@
  *
  * peter bke243
  *
- * cs50- peset1- greedy
+ * cs50- peset1- cah
  *
  * get the amount of change in $ from the user and specifies the minimum number of coins that can be returned from that amount
  *
@@ -22,6 +22,10 @@ int main(void)
     do
     {
         amount = get_float("chane owed :");
+        if (!amount)
+        {
+            return 1;
+        }
     }
     while (amount <= 0);
 
@@ -29,7 +33,7 @@ int main(void)
     amount = round (amount * 100);
     printf("amount change %f \n", amount);
 
-    // getting the number of coins using independant if statement
+    // getting the minimum number of coins that can be returned  using independant if statement
     if (amount >= 25)
     {
         quater =  amount / 25;

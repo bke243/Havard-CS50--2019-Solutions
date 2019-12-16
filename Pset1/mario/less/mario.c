@@ -17,13 +17,13 @@ int main(void)
     {
         // print spaces
         int i, j;
-        for ( i = 0; i < height-1; i++)
+        for (i = 0; i < height - 1; i++)
         {
             printf(" ");
         }
 
         // print hashes
-        for ( j = 0; j < hash; j++)
+        for (j = 0; j < hash; j++)
         {
             printf("#");
         }
