@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* general */
+html, body
+{
+  height : 100%;
+  width : 100%;
+  font-family : "Poppins", sans-serif;
+  color : #222;
+}
+
+
+/* padding to make it nice*/
+#sex
+{
+    padding-left : 5rem;
+}
+
+
+.my-4
+{
+    border-top : 0.3rem solid rgba(0,0,0,.1);
+}
+
+
+
+/* Media query for more responsivity */
+@media only screen and (max-width : 768px)
+{
+    #sex
+    {
+        padding-left : 0;
+    }
+
+    .td-responsive
+    {
+        display : none;
+    }
+}
