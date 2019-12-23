@@ -1,0 +1,26 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block main %}
+    <div class="container-fluid">
+        <form action="/sell" method="post">
+            <div class="form-group">
+                <select name="symbol" class="form-control">
+                    <option  disabled selected value="">Symbol</option>
+                    {% for row in rows %}
+                    <option value={{row.symbol}}>{{row.symbol}}</option>
+                    {% endfor%}
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="number" min="1" class="form-control" name="shares" placeholder="Shares">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-outline-dark btn-lg" type="submit">Sell</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}

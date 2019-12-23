@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block title%}
+    Loan
+{% endblock %}
+
+{% block main %}
+
+    <div id="loan" class="conatainer-fluid" >
+        <!--main header-->
+        <h4 class="display-4">Borrow or/and Refund</h4>
+        <hr class="my-4">
+        <!--form to borrow and/or refund money-->
+        <form action="/Loan" method="post" class="form-inline">
+            <div class="form-group-fluid col-md-5 padding">
+                <select name="operation" class="form-control" autofocus>
+                    <option value="" selected disabled>Opetrations</option>
+                    <option value="borrow">Borrow</option>
+                    <option value="pay">Refund</option>
+                </select>
+            </div>
+            <div class="form-group-fluid col-md-5 padding">
+                <input type="number" min="1"  name="amount" class="form-control" autocomplete="off" placeholder="Amount">
+            </div>
+            <div class="form-group-fluid col-md-2 padding">
+                <button class="btn btn-outline-dark btn-lg" type="submit">Execute</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid" >
+        <!--main table-->
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                    <th scope="col">Operations</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Transacted</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows%}
+                <tr>
+                    <td>{{row.get("operation")}}</td>
+                    <td>{{row.get("amount")}}</td>
+                    <td>{{row.get("date")}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td >Total Borrowed</td>
+                    <td colspan="2" class="foot">{{borrowed}}</td>
+                </tr>
+                <tr>
+                    <td >Total Refunded</td>
+                    <td colspan="2" class="foot">{{payed}}</td>
+                </tr>
+                <tr>
+                    <td >Current debt</td>
+                    <td colspan="2" class="foot">{{current_debt}}</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+{% endblock %}
+

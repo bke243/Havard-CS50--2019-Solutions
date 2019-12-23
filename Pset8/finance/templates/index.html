@@ -1,0 +1,43 @@
+{% extends "layout.html"%}
+
+{% block title%}
+    Portofolio
+{% endblock %}
+
+{% block main %}
+    <div class="container-fluid">
+        <!--main table-->
+        <table class="table table-stripped" >
+            <thead>
+                <tr>
+                    <th scope="col">Symbol</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Shares</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for info in user_info %}
+                <tr>
+                    <td>{{info.symbol}}</td>
+                    <td>{{info.name}}</td>
+                    <td>{{info.shares}}</td>
+                    <td>{{prices.get(info.symbol)}}</td>
+                    <td>{{total.get(info.symbol)}}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td colspan="4">CASH</td>
+                    <td>{{CASH}}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4"></td>
+                    <td><b>{{total_balance}}</b></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+{% endblock %}
