@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+/* general */
+html, body
+{
+  height : 100%;
+  width : 100%;
+  font-family : "Poppins", sans-serif;
+  color : #222;
+}
+
+/* navigation bar */
+.navbar
+{
+  padding : .8rem;
+}
+
+.navbar-nav li
+{
+  padding-right : 30px;
+}
+
+.nav-link
+{
+  font-size : 1.1em;
+}
+
+.padding
+{
+  padding-bottom : 2rem;
+}
+
+
+/* welcome to learn code */
+
+.welcome
+{
+  width : 75%;
+  margin : 0 auto;
+  padding-top : 2rem;
+}
+
+.welcome hr
+{
+  border-top : 2px solid #b4b4b4;
+  width : 95%;
+  margin-top : .3rem;
+  margin-bottom : 1rem;
+  padding-top : 2rem;
+}
+
+/*form */
+form
+{
+    padding-left : 4rem;
+    border : solid #596476 ;
+    padding-bottom : 4rem;
+    padding-top : 2rem;
+    margin-left : 4rem;
+    margin-right : 5rem;
+    border-radius : 2rem;
+}
+
+/*footer*/
+footer
+{
+  background-color : #3f3f3f;
+  color : #d5d5d5;
+  padding-top : 2rem;
+}
+
+hr .light
+{
+  border-top : 1px solid #d5d5d5;
+  width : 75%;
+  margin-top : .8rem;
+  margin-bottom : 1rem;
+
+}
+
+/*media queries for more responsivity*/
+
+@media (max-width: 768px)
+{
+    form
+{
+    padding-left : 1rem;
+    border : none  ;
+    padding-bottom : 2rem;
+    padding-top : 1rem;
+    margin-left : 1rem;
+    margin-right : 1rem;
+    border-radius : 1rem;
+}
+
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

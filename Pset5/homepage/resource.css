@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* general */
+html, body
+{
+  height : 100%;
+  width : 100%;
+  font-family : "Poppins", sans-serif;
+  color : #222;
+}
+
+/* navigation bar */
+.navbar
+{
+  padding : .8rem;
+}
+
+.navbar-nav li
+{
+  padding-right : 30px;
+}
+
+.nav-link
+{
+  font-size : 1.1em;
+}
+
+/* button */
+.btn-primary
+{
+  background-color : #6648b1;
+  border : 1px solid #66458b1;
+}
+
+.btn-primary: hover
+{
+  background-color : #563d7c;
+  border : 1px solid #563d7c;
+}
+
+.padding
+{
+  padding-bottom : 2rem;
+}
+
+/*change career*/
+.welcome
+{
+  width : 75%;
+  margin : 0 auto;
+  padding-top : 2rem;
+}
+
+.welcome hr
+{
+  border-top : 2px solid #b4b4b4;
+  width : 95%;
+  margin-top : .3rem;
+  margin-bottom : 1rem;
+  padding-top : 2rem;
+}
+
+/*last */
+#last
+{
+    font : #596476;
+}
+
+
+/*card*/
+.card img
+{
+  height : 15rem;
+}
+
+#udemy,#cs50
+{
+  margin-left : 10rem;
+}
+
+
+
+/*media query*/
+@media (max-width: 768px)
+{
+  .card img
+{
+  height : 10rem;
+}
+
+  #udemy,#cs50
+{
+  margin-right : 4rem;
+  width : 100%;
+}
+}
