@@ -40,5 +40,6 @@
     * [bleep](https://docs.cs50.net/2019/x/psets/6/bleep/bleep.html)
     
 * [pset7](https://docs.cs50.net/2019/x/psets/7/index.html) :
-
+  * [similarities](https://docs.cs50.net/2019/x/psets/7/similarities/similarities.html)
+  * [survey](https://docs.cs50.net/2019/x/psets/7/survey/survey.html)
 * [pset8](https://docs.cs50.net/2019/x/psets/8/index.html) :
