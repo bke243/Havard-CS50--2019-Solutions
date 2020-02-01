@@ -43,3 +43,4 @@
   * [similarities](https://docs.cs50.net/2019/x/psets/7/similarities/similarities.html)
   * [survey](https://docs.cs50.net/2019/x/psets/7/survey/survey.html)
 * [pset8](https://docs.cs50.net/2019/x/psets/8/index.html) :
+  * [finance](https://docs.cs50.net/2019/x/psets/8/finance/finance.html)
