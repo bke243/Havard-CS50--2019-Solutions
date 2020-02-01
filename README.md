@@ -21,7 +21,9 @@
     * [more](https://docs.cs50.net/2019/x/psets/3/resize/more/resize.html)
   * [recover](https://docs.cs50.net/2019/x/psets/3/recover/recover.html)
 * [pset4](https://docs.cs50.net/2019/x/psets/4/index.html) :
-
+  * speller :
+    * [speller (hash table)](https://docs.cs50.net/2019/x/psets/4/speller/hashtable/speller.html)
+    * [speller (trie)](https://docs.cs50.net/2019/x/psets/4/speller/trie/speller.html)
 * [pset5](https://docs.cs50.net/2019/x/psets/5/index.html) :
 
 * [pset6](https://docs.cs50.net/2019/x/psets/6/index.html) :
