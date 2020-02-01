@@ -27,7 +27,18 @@
 * [pset5](https://docs.cs50.net/2019/x/psets/5/index.html) :
   * [homepage](https://docs.cs50.net/2019/x/psets/5/homepage/homepage.html)
 * [pset6](https://docs.cs50.net/2019/x/psets/6/index.html) :
-
+  * sentimental :
+    * [hello](https://docs.cs50.net/2019/x/psets/6/sentimental/hello/hello.html)
+    * mario :
+      * [less](https://docs.cs50.net/2019/x/psets/6/sentimental/mario/less/mario.html)
+      * [more](https://docs.cs50.net/2019/x/psets/6/sentimental/mario/more/mario.html)
+    * [cash](https://docs.cs50.net/2019/x/psets/6/sentimental/cash/cash.html)
+    * [credit](https://docs.cs50.net/2019/x/psets/6/sentimental/credit/credit.html)
+    * [caesar](https://docs.cs50.net/2019/x/psets/6/sentimental/caesar/caesar.html)
+    * [crack](https://docs.cs50.net/2019/x/psets/6/sentimental/crack/crack.html)
+    * [vigenere](https://docs.cs50.net/2019/x/psets/6/sentimental/vigenere/vigenere.html)
+    * [bleep](https://docs.cs50.net/2019/x/psets/6/bleep/bleep.html)
+    
 * [pset7](https://docs.cs50.net/2019/x/psets/7/index.html) :
 
 * [pset8](https://docs.cs50.net/2019/x/psets/8/index.html) :
