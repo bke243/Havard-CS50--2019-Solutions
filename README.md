@@ -15,7 +15,11 @@
   * [crack](https://lab.cs50.io/cs50/labs/2019/x/crack)
 
 * [pset3](https://docs.cs50.net/2019/x/psets/3/index.html) :
-
+  * [whodunit](https://lab.cs50.io/cs50/labs/2019/x/whodunit)
+  * resize :
+    * [less](https://lab.cs50.io/cs50/labs/2019/x/resize/less)
+    * [more](https://lab.cs50.io/cs50/labs/2019/x/resize/more)
+  * [recover](https://lab.cs50.io/cs50/labs/2019/x/recover)
 * [pset4](https://docs.cs50.net/2019/x/psets/4/index.html) :
 
 * [pset5](https://docs.cs50.net/2019/x/psets/5/index.html) :
