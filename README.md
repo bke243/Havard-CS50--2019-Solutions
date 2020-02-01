@@ -10,6 +10,9 @@
   * [cash](https://lab.cs50.io/cs50/labs/2019/x/cash)
   * [credit](https://lab.cs50.io/cs50/labs/2019/x/credit)
 * [pset2](https://docs.cs50.net/2019/x/psets/2/index.html) :
+  * [caesar](https://lab.cs50.io/cs50/labs/2019/x/caesar)
+  * [vigenere](https://lab.cs50.io/cs50/labs/2019/x/vigenere)
+  * [crack](https://lab.cs50.io/cs50/labs/2019/x/crack)
 
 * [pset3](https://docs.cs50.net/2019/x/psets/3/index.html) :
 
