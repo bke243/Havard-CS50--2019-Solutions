@@ -25,7 +25,7 @@
     * [speller (hash table)](https://docs.cs50.net/2019/x/psets/4/speller/hashtable/speller.html)
     * [speller (trie)](https://docs.cs50.net/2019/x/psets/4/speller/trie/speller.html)
 * [pset5](https://docs.cs50.net/2019/x/psets/5/index.html) :
-
+  * [homepage](https://docs.cs50.net/2019/x/psets/5/homepage/homepage.html)
 * [pset6](https://docs.cs50.net/2019/x/psets/6/index.html) :
 
 * [pset7](https://docs.cs50.net/2019/x/psets/7/index.html) :
