@@ -19,7 +19,7 @@
   * resize :
     * [less](https://docs.cs50.net/2019/x/psets/3/resize/less/resize.html)
     * [more](https://docs.cs50.net/2019/x/psets/3/resize/more/resize.html)
-  * [recover](https://lab.cs50.io/cs50/labs/2019/x/recover)
+  * [recover](https://docs.cs50.net/2019/x/psets/3/recover/recover.html)
 * [pset4](https://docs.cs50.net/2019/x/psets/4/index.html) :
 
 * [pset5](https://docs.cs50.net/2019/x/psets/5/index.html) :
