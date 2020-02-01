@@ -2,7 +2,7 @@
 
 ## Go ahead and and have a look to proble set
 
-* [https://docs.cs50.net/2019/x/psets/1/index.html](pset1):
+* [pset1](https://docs.cs50.net/2019/x/psets/1/index.html):
 
 * pset2 :
 
